@@ -19,7 +19,7 @@ Ces terrains constituent la base empirique de la doctrine ORTIS et de la Cinéth
 ## Français
 
 Lieu : Paris  
-Période : années 2010  
+Période : années 2012-2013  
 Type : squat urbain organisé
 
 Le Bloc était un espace social autonome situé à Paris.
