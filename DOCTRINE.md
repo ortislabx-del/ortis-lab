@@ -1,12 +1,3 @@
-Voici la Doctrine ORTIS développée au maximum, structurée comme un texte fondateur que tu peux publier dans :
-
-DOCTRINE.md
-
-sur GitHub.
-
-
----
-
 DOCTRINE ORTIS
 
 Fondements de la Cinéthique Opérationnelle
