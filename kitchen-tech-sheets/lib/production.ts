@@ -15,7 +15,7 @@ type RecipeForValidation = {
  */
 export function validateProductionStock(
   recipe: RecipeForValidation,
-  portionsToProduced: number
+  portionsToProduce: number
 ): { valid: boolean; missingIngredients: string[] } {
   const missingIngredients: string[] = []
 
@@ -26,7 +26,7 @@ export function validateProductionStock(
   for (const component of recipe.components) {
     if (!component.ingredient) continue
 
-    const required = (component.quantity ?? 0) * portionsToProduced
+    const required = (component.quantity ?? 0) * portionsToProduce
     const available = component.ingredient.current_stock ?? 0
 
     if (available < required) {

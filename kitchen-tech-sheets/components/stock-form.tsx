@@ -7,10 +7,9 @@ import type { Ingredient } from '@/types/recipe'
 
 interface StockFormProps {
   ingredient?: Ingredient
-  userId: string
 }
 
-export default function StockForm({ ingredient, userId: _userId }: StockFormProps) {
+export default function StockForm({ ingredient }: StockFormProps) {
   const [name, setName] = useState(ingredient?.name ?? '')
   const [unit, setUnit] = useState(ingredient?.unit ?? '')
   const [costPerUnit, setCostPerUnit] = useState(ingredient?.cost_per_unit?.toString() ?? '0')

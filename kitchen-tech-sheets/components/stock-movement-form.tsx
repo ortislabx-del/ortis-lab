@@ -34,7 +34,6 @@ export default function StockMovementForm({ ingredients, userId }: StockMovement
     setIsLoading(true)
     setError(null)
     const supabase = createClient()
-    setError(null)
 
     try {
       const { error } = await supabase.from('stock_movements').insert({
