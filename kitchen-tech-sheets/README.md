@@ -12,7 +12,7 @@ A Kitchen Tech Sheets management system built with Next.js, TypeScript, and Supa
 
 ## Tech Stack
 
-- [Next.js 14](https://nextjs.org/) – App Router, Server Components
+- [Next.js 15](https://nextjs.org/) – App Router, Server Components
 - [TypeScript](https://www.typescriptlang.org/)
 - [Supabase](https://supabase.com/) – Database, Auth, Row Level Security
 - [Tailwind CSS](https://tailwindcss.com/)
