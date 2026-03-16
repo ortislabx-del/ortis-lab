@@ -1,0 +1,48 @@
+{
+  "recipes": [
+    {
+      "id": "sauce-tomate-001",
+      "name": "Sauce tomate maison",
+      "category": "Sauce",
+      "recipeType": "simple",
+      "servings": 4,
+      "prepTime": 10,
+      "cookTime": 30,
+      "totalCost": 2.80,
+      "sellingPrice": null,
+      "allergens": null,
+      "notes": "Peut se congeler 3 mois.",
+      "steps": "Émincer l'oignon et l'ail\nFaire revenir dans l'huile d'olive 5 minutes\nAjouter les tomates concassées et le concentré\nAssaisonner et laisser mijoter 30 minutes\nMixer si texture lisse souhaitée",
+      "ingredients": [
+        { "name": "Tomates fraîches", "quantity": 800, "unit": "g", "unitCost": 0.003 },
+        { "name": "Huile d'olive", "quantity": 50, "unit": "ml", "unitCost": 0.007 },
+        { "name": "Oignons", "quantity": 150, "unit": "g", "unitCost": 0.002 },
+        { "name": "Ail", "quantity": 20, "unit": "g", "unitCost": 0.008 },
+        { "name": "Concentré de tomates", "quantity": 30, "unit": "g", "unitCost": 0.006 },
+        { "name": "Sel fin", "quantity": 8, "unit": "g", "unitCost": 0.0005 },
+        { "name": "Poivre noir moulu", "quantity": 3, "unit": "g", "unitCost": 0.018 },
+        { "name": "Thym", "quantity": 5, "unit": "g", "unitCost": 0.02 }
+      ]
+    },
+    {
+      "id": "steak-hache-001",
+      "name": "Steak haché maison",
+      "category": "Plat principal",
+      "recipeType": "simple",
+      "servings": 4,
+      "prepTime": 15,
+      "cookTime": 10,
+      "totalCost": 6.50,
+      "sellingPrice": null,
+      "allergens": null,
+      "notes": "À cuire rosé pour un maximum de saveur.",
+      "steps": "Mélanger la viande avec sel, poivre et moutarde\nFormer les steaks de 125g\nCuire 3 minutes de chaque côté dans une poêle bien chaude",
+      "ingredients": [
+        { "name": "Bœuf haché 15%", "quantity": 500, "unit": "g", "unitCost": 0.015 },
+        { "name": "Sel fin", "quantity": 5, "unit": "g", "unitCost": 0.0005 },
+        { "name": "Poivre noir moulu", "quantity": 3, "unit": "g", "unitCost": 0.018 },
+        { "name": "Moutarde de Dijon", "quantity": 20, "unit": "g", "unitCost": 0.007 }
+      ]
+    }
+  ]
+}

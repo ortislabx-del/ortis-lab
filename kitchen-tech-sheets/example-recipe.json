@@ -1,0 +1,20 @@
+{
+  "name": "Burger Classique",
+  "category": "Plat principal",
+  "recipeType": "composed",
+  "servings": 1,
+  "unit": "portion",
+  "prepTime": 10,
+  "cookTime": 15,
+  "ingredients": [],
+  "components": [
+    { "childRecipeId": "steak-patty-id", "childRecipeName": "Steak haché", "quantity": 1, "unit": "pièce(s)" },
+    { "childRecipeId": "sauce-tomate-id", "childRecipeName": "Sauce tomate maison", "quantity": 100, "unit": "g" },
+    { "childRecipeId": "burger-bread-id", "childRecipeName": "Pain burger", "quantity": 2, "unit": "pièce(s)" },
+    { "childRecipeId": "lettuce-id", "childRecipeName": "Mélange salade", "quantity": 50, "unit": "g" }
+  ],
+  "sellingPrice": 15.00,
+  "totalCost": 4.50,
+  "allergens": "gluten, lactose",
+  "notes": "Burger premium avec steaks maison. Servir immédiatement."
+}
