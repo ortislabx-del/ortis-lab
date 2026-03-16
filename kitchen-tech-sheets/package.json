@@ -1,1 +1,29 @@
-{\n  \"name\": \"kitchen-tech-sheets\",\n  \"version\": \"1.0.0\",\n  \"private\": true,\n  \"scripts\": {\n    \"dev\": \"next dev\",\n    \"build\": \"next build\",\n    \"start\": \"next start\"\n  },\n  \"dependencies\": {\n    \"next\": \"latest\",\n    \"react\": \"latest\",\n    \"react-dom\": \"latest\",\n    \"@supabase/supabase-js\": \"latest\",\n    \"pdf-lib\": \"latest\"\n  },\n  \"devDependencies\": {\n    \"typescript\": \"latest\",\n    \"@types/react\": \"latest\",\n    \"@types/node\": \"latest\"\n  }\n}
+{
+  "name": "kitchen-tech-sheets",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.5.13",
+    "react": "^19",
+    "react-dom": "^19",
+    "@supabase/supabase-js": "^2",
+    "@supabase/ssr": "^0.6.1",
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/react": "^19",
+    "@types/node": "^20",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.13"
+  }
+}
