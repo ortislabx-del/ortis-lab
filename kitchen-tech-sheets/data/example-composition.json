@@ -1,0 +1,24 @@
+{
+  "name": "Pasta Bolognese",
+  "category": "main",
+  "recipeType": "composed",
+  "servings": 4,
+  "prepTime": 15,
+  "cookTime": 45,
+  "allergens": "gluten, eggs",
+  "notes": "Classic pasta bolognese using composed sauces",
+  "steps": "1. Cook pasta al dente.\n2. Prepare bolognese sauce.\n3. Mix together and serve with parmesan.",
+  "components": [
+    {
+      "childRecipeName": "Tomato Sauce",
+      "quantity": 1,
+      "unit": "portions",
+      "totalCost": 1.50
+    }
+  ],
+  "ingredients": [
+    { "name": "Pasta", "quantity": 400, "unit": "g", "unitCost": 0.002 },
+    { "name": "Beef Mince", "quantity": 300, "unit": "g", "unitCost": 0.012 },
+    { "name": "Parmesan", "quantity": 50, "unit": "g", "unitCost": 0.022 }
+  ]
+}

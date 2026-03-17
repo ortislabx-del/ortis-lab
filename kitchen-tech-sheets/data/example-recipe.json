@@ -1,0 +1,19 @@
+{
+  "name": "Tomato Sauce",
+  "category": "sauce",
+  "recipeType": "simple",
+  "servings": 4,
+  "prepTime": 10,
+  "cookTime": 25,
+  "allergens": "",
+  "notes": "Classic Italian tomato sauce",
+  "steps": "1. Dice the onion and garlic.\n2. Heat olive oil in a pan over medium heat.\n3. Sauté onion until translucent (5 min).\n4. Add garlic and cook 1 min.\n5. Add tomatoes and season with salt and pepper.\n6. Simmer for 20 minutes.\n7. Add fresh basil at the end.",
+  "ingredients": [
+    { "name": "Tomatoes", "quantity": 800, "unit": "g", "unitCost": 0.0012 },
+    { "name": "Olive Oil", "quantity": 30, "unit": "ml", "unitCost": 0.0085 },
+    { "name": "Onion", "quantity": 150, "unit": "g", "unitCost": 0.001 },
+    { "name": "Garlic", "quantity": 20, "unit": "g", "unitCost": 0.0035 },
+    { "name": "Salt", "quantity": 5, "unit": "g", "unitCost": 0.0008 },
+    { "name": "Basil", "quantity": 10, "unit": "g", "unitCost": 0.015 }
+  ]
+}
